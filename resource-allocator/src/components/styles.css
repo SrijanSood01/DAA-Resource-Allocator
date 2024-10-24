@@ -1,0 +1,175 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center the content vertically */
+  min-height: 100vh; /* Ensure the background takes full screen height */
+  background-image: url(../assets/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-container {
+  max-width: 600px;
+  padding: 20px;
+  background-color: lavender;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  margin: auto; /* Ensure horizontal centering */
+  text-align: center; /* Ensure card content is centered */
+}
+
+
+h1 {
+  margin: 5px 0 5px; /* Remove top margin, add bottom margin */
+  text-align: center; /* Center the heading text */
+  color: black; /* Set text color to black */
+  font-family: "Poppins", sans-serif; /* Add the chosen font */
+  font-weight: 700; /* Use a bold weight for the heading */
+  font-size: 3rem; /* Adjust font size as needed */
+}
+
+.item-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="number"],
+select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.delete-confirmation {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #dc3545;
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.del {
+  margin-bottom: 12px;
+  background-color: #dc3545;
+}
+
+.del:hover {
+  background-color: #721c24;
+}
+
+.next {
+  margin-left: 2%;
+}
+.back {
+  margin-bottom: 12px;
+  background-color: #d67729;
+}
+
+.back:hover {
+  background-color: #bb5400;
+}
+
+.cat {
+  align-items: center;
+}
+/* ZeroOneKnapsack.css */
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .title {
+    text-align: center;
+    color: #333; /* Add space below the title */
+  }
+  
+  .infoBox {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #e7f3fe;
+    border-radius: 4px;
+    color: #333;
+  }
+  
+  .chartContainer {
+    height: 400px; /* Adjust height as necessary */
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .breakdownTitle {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .list {
+    padding-left: 20px;
+  }
+  
+  .listItem {
+    color: #555;
+  }
+  
+  .tablesContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .tableWrapper {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .itemsTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .itemsTable th,
+  .itemsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .itemsTable th {
+    background-color: #f2f2f2;
+    width: 80px;
+  }
+  
